@@ -12,7 +12,6 @@
 - routing in angular 
 - Events binding in angular
 
-
 ### about the project
 This is a simple Calculator and TodoList built using angular to better understand the concepts of the Angular framework and to better understand TypeScript 
 
