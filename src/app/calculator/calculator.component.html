@@ -1,0 +1,28 @@
+
+<h1 [ngStyle]="{'text-align':'center',  'margin-top': '100px'
+}">Calculator</h1>
+<div class="wrapper">
+    <div class="container" >
+    <input class="result" type="text" [(ngModel)]="result" />
+    <div class="buttons">
+        <button  type="button"  id="clear" (click)="result=''">Clear</button>
+        <button  type="button"  id="C"(click)="C()" >C</button>
+        <button  type="button" (click)="result=result+'/'">/</button>
+        <button  type="button" (click)="result=this.result+'7'" >7</button>
+        <button  type="button" (click)="result=this.result+'8'" >8</button>
+        <button  type="button" (click)="result=this.result+'9'">9</button>
+        <button  type="button" (click)="result=result+'*'">x</button>
+        <button  type="button" (click)="result=this.result+'4'" >4</button>
+        <button  type="button" (click)="result=this.result+'5'" >5</button>
+        <button  type="button" (click)="result=this.result+'6'" >6</button>
+        <button  type="button" (click)="result=result+'-'">-</button>
+        <button  type="button" (click)="result=result+'1'" >1</button>
+        <button  type="button" (click)="result=result+'2'" >2</button>
+        <button  type="button" (click)="result=result+'3'" >3</button>
+        <button  type="button" (click)="result=result+'+'">+</button>
+        <button  type="button" (click)="result=result+'0'">0</button>
+        <button  type="button"  (click)="result=result+'.'">.</button> 
+        <button  type="button" id="equal" (click)="Equal()" >=</button>                       
+    </div>
+</div>
+</div>

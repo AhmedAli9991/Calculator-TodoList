@@ -1,0 +1,11 @@
+.jumbotron{
+    margin-top: 100px ;
+      width: 100% ;
+      background-color: rgb(245, 206, 206);
+       padding: 40px ; 
+    }
+.random{
+    padding: 100 px;
+    margin-left: 25px;
+    margin-top: 40px;
+}
